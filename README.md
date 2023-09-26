@@ -20,9 +20,20 @@ Lo de la derecha es una tabla
 En toda tabla siempre habrá una  ***primary key (PK)*** ![image](https://github.com/Pierohc/DB-SQL/assets/133154904/e40bbd66-0393-4edb-a823-7fe620016f3e), pueden haber mas, está permite identificar univocamente a cada fila, esta no se puede repetir. 
 
 
-Rombo celeste sin colorear:
+## Rombo celeste sin colorear:
 Significa que esa columna puede ser nula.
-Por ejemplo si nombre y nacimiento tiene un rombo celeste sin colorear, significa que puedo crear una persona solo con DNI, sin nombre y sin fecha de nacimiento
+
+Por ejemplo si nombre y nacimiento tiene un rombo celeste sin colorear, significa que puedo crear una persona solo con DNI, sin nombre y sin fecha de nacimiento.
+
+## Rombo celeste coloreado:
+Si queremos que un campo sea obligatorio debemos ponerlo NN(No Null).
+
+## Rombo rojo sin colorear:
+Un foreign key que puede ser null. En el origne de la conexión habrá un |o
+
+## Rombo rojo coloreado:
+Un foreign key que no puede ser null. En el origne de la conexión habrá un ||
+
 
 ## Enteros: 
 ![image](https://github.com/Pierohc/DB-SQL/assets/133154904/71301110-94c4-4fc4-81f0-54bbc4d8ef19)
@@ -42,8 +53,34 @@ Char se usa cuando estamos seguros del tamaño de lo que se va a guardar.
 Varchar cuando no estamos seguros de tamaño, este es variable.
 
 -------------------------------
-# Modelo entidad relación: 
+## Modelo entidad relación: 
 ![image](https://github.com/Pierohc/DB-SQL/assets/133154904/1c7b2db0-943f-4f68-a8e4-fce69f2e8611)
+
+## Foreign Key (Llave foranea):
+Cuando pasamos una primary key de una tabla a otra esta se llamada foreign key(FK)
+![image](https://github.com/Pierohc/DB-SQL/assets/133154904/54722aeb-83a7-4c78-b32e-b251d2bf8270)
+
+----
+
+## Conexiones:
+Uno a muchos: 
+![image](https://github.com/Pierohc/DB-SQL/assets/133154904/f0f1ebc8-dad2-4834-8541-2280a68e4ff5)
+
+----
+Una relacion es ***fuerte*** cuando la tabla es dependiente, en este caso el celular se vuelve dependiente de la persona. Por asi decirlo, si imaginamos que no hay ninguna personas, no podriamos crear un celular.
+Y en ese caso cuando le paso la PK de persona, tambien pasaria a ser la PK de celular. Y tendriamos una PK compuesta(puede de 2 a más). Significada que el par o más llave representa a la tabla.
+
+Cuando la relación es ***debil*** si estariamos pasando una foreign key (FK) y esa PK pasaria a ser una columna más.
+
+Lo mejor será modelar con conexiones débiles
+
+---------------------------------------------------
+# BASE DE DATOS:
+
+
+
+
+
 
 
 
