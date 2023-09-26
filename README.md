@@ -41,6 +41,9 @@ Char se usa cuando estamos seguros del tamaño de lo que se va a guardar.
 
 Varchar cuando no estamos seguros de tamaño, este es variable.
 
+-------------------------------
+# Modelo entidad relación: 
+![image](https://github.com/Pierohc/DB-SQL/assets/133154904/1c7b2db0-943f-4f68-a8e4-fce69f2e8611)
 
 
 
