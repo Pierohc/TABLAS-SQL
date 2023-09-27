@@ -69,6 +69,15 @@ Uno a muchos:
 ![image](https://github.com/Pierohc/DB-SQL/assets/133154904/f0f1ebc8-dad2-4834-8541-2280a68e4ff5)
 
 ----
+
+Uso incorrecto (Ya que se estaría indicando que muchas personas pueden tener un solo celular):
+![image](https://github.com/Pierohc/DB-SQL/assets/133154904/1482ff52-d918-4ee0-b677-fa32115cc864)
+
+Uso correto (Se estaría indicando que una persona pueden tener muchos celulares):
+![image](https://github.com/Pierohc/DB-SQL/assets/133154904/8ecd58ba-92ba-472b-8e33-a230b76b7d55)
+
+
+
 Una relacion es ***fuerte*** cuando la tabla es dependiente, en este caso el celular se vuelve dependiente de la persona. Por asi decirlo, si imaginamos que no hay ninguna personas, no podriamos crear un celular.
 Y en ese caso cuando le paso la PK de persona, tambien pasaria a ser la PK de celular. Y tendriamos una PK compuesta(puede de 2 a más). Significada que el par o más llave representa a la tabla.
 
