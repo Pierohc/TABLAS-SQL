@@ -1,6 +1,8 @@
 ## Datos:
 SQL es una base de datos relacional.
 
+El workbench no es un servidor de bases de datos, es solo un cliente.
+
 ## Estructura: 
 
 Las columnas son los atributos(mismo tipo de dato).
@@ -76,6 +78,48 @@ Lo mejor será modelar con conexiones débiles
 
 ---------------------------------------------------
 # BASE DE DATOS:
+Las tablas que modelamos o esquemas se pueden pasar a SQL puro(lenguaje de DB) y lo podemos poner en nuestra Base de Datos.
+
+## Guardar o Exportar el esquema de Base de Datos(tablas):
+![image](https://github.com/Pierohc/DB-SQL/assets/133154904/53480d07-417a-4c33-9efb-2a1554c9f8d7)
+
+## Guardar archivo como ***mwb***: 
+En EER DIAGRAM:
+![image](https://github.com/Pierohc/DB-SQL/assets/133154904/7f974aaf-dc88-42ad-a298-05d2b0f26980)
+
+## FILE y SAVE MODEL AS:
+![image](https://github.com/Pierohc/DB-SQL/assets/133154904/88921cf5-8e3e-43eb-8d07-bf0794c68ecd)
+
+------------------
+## Fordward Engineer:
+
+Pasar archivo SQL a la base de datos:
+En administration, Data Import/Restore:
+![image](https://github.com/Pierohc/DB-SQL/assets/133154904/471fc25c-d9ac-4745-b051-82b2303e92e1)
+
+![image](https://github.com/Pierohc/DB-SQL/assets/133154904/3d1d5fa7-300e-467b-aff1-f99bea65fc38)
+Cargamos el archivo SQL
+
+Vamos a Import Progress y le damos a Start import:
+![image](https://github.com/Pierohc/DB-SQL/assets/133154904/ba11977e-dd6c-4b53-842d-62412ed0a857)
+
+Actualizacom Schemas y ya deberian de aparecer las tablas. 
+
+Si queremos ver las tablas que importamos como un esquemo o modelado:
+![image](https://github.com/Pierohc/DB-SQL/assets/133154904/c948ad65-8673-45a3-b2bf-013eb4befa3e)
+
+Verificar que el check inferior este seleccionado:
+![image](https://github.com/Pierohc/DB-SQL/assets/133154904/43c389de-db2e-402b-af09-793b336bd521)
+
+
+
+
+
+
+
+
+
+
 
 
 
