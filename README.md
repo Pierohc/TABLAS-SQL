@@ -73,7 +73,7 @@ Uno a muchos:
 Uso incorrecto (Ya que se estaría indicando que muchas personas pueden tener un solo celular):
 ![image](https://github.com/Pierohc/DB-SQL/assets/133154904/1482ff52-d918-4ee0-b677-fa32115cc864)
 
-Uso correto (Se estaría indicando que una persona pueden tener muchos celulares):
+Uso correcto (Se estaría indicando que una persona pueden tener muchos celulares):
 ![image](https://github.com/Pierohc/DB-SQL/assets/133154904/8ecd58ba-92ba-472b-8e33-a230b76b7d55)
 
 
